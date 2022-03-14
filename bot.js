@@ -65,8 +65,8 @@ const zodiac = (tanggalLahirParam) => {
       if (tanggalLahir.tanggal < 22) return zodiac[10];
       else return zodiac[11];
     default:
-      return `Error, Format tanggal salah!
-Contoh:
+      return `Error, Invalid Format!
+Example:
 /zodiac 30-12-1999`;
   }
 };
